@@ -332,7 +332,7 @@ b{font-weight:700}
     </ul>
   </div>
 </div>
-<div class="panel strip">Colocar o container dentro de uma VM põe uma fronteira de hardware entre inquilinos. O custo dessa camada é o que o resto do paper mede.</div><footer class="foot"><div class="sq s"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M22 78 L76 24 M40 22 H78 V60" fill="none" stroke="#0a0a0a" stroke-width="5" stroke-linecap="square"/></svg></div><div><b>Virtualização e isolamento no x86</b><span>Bloco 2 de 6 | 13 / 33</span></div></footer><div class="dots dv"></div><div class="dots dh"></div></section>
+<div class="panel strip">Colocar o container dentro de uma VM põe uma fronteira de hardware entre tenants. O custo dessa camada é o que o resto do paper mede.</div><footer class="foot"><div class="sq s"><svg viewBox="0 0 100 100" aria-hidden="true"><path d="M22 78 L76 24 M40 22 H78 V60" fill="none" stroke="#0a0a0a" stroke-width="5" stroke-linecap="square"/></svg></div><div><b>Virtualização e isolamento no x86</b><span>Bloco 2 de 6 | 13 / 33</span></div></footer><div class="dots dv"></div><div class="dots dh"></div></section>
 <section class="slide " data-notes="Destacar que é uma máquina única e modesta, o que volta na leitura crítica. No XEN, uma das quatro vCPUs fica ocupada pelo Dom0. O servidor NETPERF fica em outro nó, ligado por um roteador." aria-label="Slide 14 de 33">
 <h2>Benchmark</h2>
 <div class="grid g2">
@@ -512,7 +512,7 @@ b{font-weight:700}
 <div class="grid g2">
   <div class="stack">
     <ul class="ul">
-      <li><b>Potência da parede</b>: medidor Bearware 302717, uma leitura por segundo.</li>
+      <li><b>Wall power</b>: medidor Bearware 302717, uma leitura por segundo.</li>
       <li><b>CPU, núcleos e DRAM</b>: contadores RAPL da Intel.</li>
       <li><b>DVFS</b>: 16 estados de frequência, de 740 a 3700 MHz.</li>
       <li>11 configurações (Tabela 8): bare metal, KVM e XEN com MySQL e MongoDB.</li>
